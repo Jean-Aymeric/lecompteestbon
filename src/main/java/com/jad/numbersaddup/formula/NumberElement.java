@@ -1,6 +1,6 @@
 package com.jad.numbersaddup.formula;
 
-public class NumberElement implements AbstractFormulaElement {
+public class NumberElement implements FormulaElement {
     private final int value;
 
     public NumberElement(final int value) {

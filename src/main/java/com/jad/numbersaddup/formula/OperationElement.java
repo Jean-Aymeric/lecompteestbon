@@ -1,14 +1,14 @@
 package com.jad.numbersaddup.formula;
 
-public class OperationElement implements AbstractFormulaElement {
+public class OperationElement implements FormulaElement {
 
     private final Operation operation;
-    private final AbstractFormulaElement left;
-    private final AbstractFormulaElement right;
+    private final FormulaElement left;
+    private final FormulaElement right;
 
-    public OperationElement(final AbstractFormulaElement left,
+    public OperationElement(final FormulaElement left,
                             final Operation operation,
-                            final AbstractFormulaElement right) {
+                            final FormulaElement right) {
         this.operation = operation;
         this.left = left;
         this.right = right;

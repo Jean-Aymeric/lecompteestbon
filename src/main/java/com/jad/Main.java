@@ -1,7 +1,7 @@
 package com.jad;
 
 import com.jad.numbersaddup.draw.NumberCollection;
-import com.jad.numbersaddup.formula.AbstractFormulaElement;
+import com.jad.numbersaddup.formula.FormulaElement;
 import com.jad.numbersaddup.formula.NumberElement;
 import com.jad.numbersaddup.formula.Operation;
 import com.jad.numbersaddup.formula.OperationElement;
@@ -12,7 +12,7 @@ public enum Main {
     ;
 
     public static void main(String[] args) {
-        AbstractFormulaElement formula =
+        FormulaElement formula =
                 new OperationElement(
                         new OperationElement(
                                 new NumberElement(10),

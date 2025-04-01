@@ -1,6 +1,6 @@
 package com.jad.numbersaddup.formula;
 
-public interface AbstractFormulaElement {
+public interface FormulaElement {
     int evaluate();
 
     String getOperation();
