@@ -1,4 +1,4 @@
-package com.jad.numbersaddup;
+package com.jad.numbersaddup.formula;
 
 public enum Operation {
     PLUS('+') {

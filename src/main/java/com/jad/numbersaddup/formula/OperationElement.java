@@ -1,6 +1,6 @@
-package com.jad.numbersaddup;
+package com.jad.numbersaddup.formula;
 
-public class OperationElement extends AbstractFormulaElement {
+public class OperationElement implements AbstractFormulaElement {
 
     private final Operation operation;
     private final AbstractFormulaElement left;
