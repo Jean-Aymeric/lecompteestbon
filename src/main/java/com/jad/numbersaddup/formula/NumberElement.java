@@ -16,4 +16,9 @@ public class NumberElement implements FormulaElement {
     public String getOperation() {
         return String.valueOf(this.value);
     }
+
+    @Override
+    public String toString() {
+        return this.getOperation();
+    }
 }

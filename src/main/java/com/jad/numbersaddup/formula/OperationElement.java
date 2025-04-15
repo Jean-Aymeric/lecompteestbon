@@ -28,4 +28,9 @@ public class OperationElement implements FormulaElement {
     public String getOperation() {
         return "(" + this.left.getOperation() + " " + this.operation.getSymbol() + " " + this.right.getOperation() + ")";
     }
+
+    @Override
+    public String toString() {
+        return this.getOperation();
+    }
 }

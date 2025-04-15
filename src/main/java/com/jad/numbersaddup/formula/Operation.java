@@ -22,6 +22,7 @@ public enum Operation {
     DIVIDE('/') {
         @Override
         float apply(final int left, final int right) {
+            if (right == 0) return -1;
             return ((float) left) / ((float) right);
         }
     };
